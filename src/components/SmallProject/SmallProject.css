@@ -65,6 +65,9 @@
     .SmallProject h1{
         font-size: 45px;
     }
+    .SmallProjectDetail img{
+        height: 300px;
+    }
 }
 @media screen and (max-width: 460px){
     .SmallProject h1{
