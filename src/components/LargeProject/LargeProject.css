@@ -71,7 +71,7 @@
         width: 60vw;
     }
 }
-@media screen and (max-width: 733px){
+@media screen and (max-width: 768px){
     .LargeProject h1{
         font-size: 55px;
     }
@@ -80,7 +80,7 @@
     }
     .LargeProject img{
         width: 100%;
-        height: 50vh;
+        height: 40vh;
         margin-top: 10%;
         margin-bottom: 10%;
     }

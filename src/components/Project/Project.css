@@ -59,8 +59,11 @@
     .Project{
         padding-top: 120px;
     }
+    .Project img{
+        height: 50vh;
+    }
 }
-@media screen and (max-width: 733px){
+@media screen and (max-width: 768px){
     .Project h1{
         font-size: 55px;
     }
@@ -68,7 +71,7 @@
         font-size: 18px;
     }
     .Project img{
-        height: 50vh;
+        height: 40vh;
         margin-top: 10%;
         margin-bottom: 10%;
     }
