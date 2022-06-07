@@ -35,3 +35,39 @@
 .SmallProjectDetail a:hover{
     margin-left: 30px;
 }
+
+@media screen and (max-width: 954px){
+    .SmallProject{
+        max-width: 70vw;
+    }
+    .SmallProjectDetail img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .SmallProject h1{
+        font-size: 55px;
+    }
+    .SmallProject span{
+        font-size: 18px;
+    }
+    .SmallProjectDetail p{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .SmallProject{
+        max-width: 90vw;
+    }
+    .SmallProject h1{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 460px){
+    .SmallProject h1{
+        font-size: 35px;
+    }
+}
