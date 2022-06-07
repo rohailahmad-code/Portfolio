@@ -10,7 +10,7 @@ const FurtherDetail = (props) => {
         <p>{props.para1}</p>
         <img src={props.img} alt="" />
         <p>{props.para2}</p>
-        <a href="">Click here</a>
+        <a href={props.anchor} target='_blank'>Click here to view</a>
     </div>
   )
 }

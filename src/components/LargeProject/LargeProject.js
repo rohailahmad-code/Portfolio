@@ -32,7 +32,7 @@ const LargeProject = () => {
             which are interconnected with each other and it has much 
             awesome functionality which you will see below.</span>
             <p className="text">Days started as a side project back in 2020. This was a Figma design, a friend told me about this project and I was free at that time I told him OKAY let's start the game. This website is based on LMS (Learning Management System) where students can easily apply for the course and can enroll themselves. The first pages of the website for a new user are Login and Register where the user can register himself and Login into LMS. More Detail of Login and Register are below </p>
-            <a href=""></a>
+            <a href="https://talentlab-lms.netlify.app/home.html" target='_blank'>Click here to view</a>
         </div>
 
         <FurtherDetail heading="Login"
@@ -46,7 +46,7 @@ const LargeProject = () => {
         in case you didn't register yourself as an LMS user then first you should register yourself as an LMS user. If you don't 
         want to register yourself manually, here we have another option where you can login directly with your Gmail, Facebook, 
         or LinkedIn account. "
-         anchor="" />
+         anchor="https://talentlab-lms.netlify.app/" />
 
         <FurtherDetail heading="Register"
         para1="A signup page (also known as a registration page) enables users and organizations to independently register and gain
@@ -58,7 +58,7 @@ const LargeProject = () => {
         customers for subscriptions, services, or other programs or plans. In TalentLab LMS Registration Form we required some input
         fields from user to register himself. By lefting the required input field empty the user can't be able to login to the LMS. 
         User must have to fill all the required input fields."
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/signup.html" />
 
         <FurtherDetail heading="Course"
         para1="LMSs have evolved from earlier systems to now include courses. Here in TalentLab LMS we a page for courses where they 
@@ -68,7 +68,7 @@ const LargeProject = () => {
         The UI provides a search input field below where you can browse any course that you want to do. We have a filter on the left 
         side where you can filter your course and on the right side, we have courses. This design was a little tricky for me but with 
         the help of flexbox, I code this page very easily. I highly recommend the flexbox to everyone who wants to make designs like this."
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/browse-courses.html" />
 
         <FurtherDetail heading="Notification"
         para1="Web push notifications (also known as browser push notifications) are actionable messages sent to a user's device from a 
@@ -79,7 +79,7 @@ const LargeProject = () => {
         from the management team to inform them about any update. You can see the small red dots, these dots mean that those are the new 
         notification that is not visited by a user. Flexbox is something which will make your work easier and can save much time, with the 
         help of flexbox you can do more productive work in less time. "
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/notification.html" />
 
         <FurtherDetail heading="Inbox"
         para1="An inbox is a repository in an email application that accepts incoming messages. An inbox is a web and mobile 
@@ -92,7 +92,7 @@ const LargeProject = () => {
         have user's profiles photos, names, times, and recent messages. In the middle, we have a chat box of a group and on 
         the right side, we have 3 small sections first one shows all members, and the below both shows shared files and shared 
         media. The layout is done with the help of Flexbox."
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/inbox.html" />
 
         <FurtherDetail heading="Dashboard"
         para1="A web dashboard is an online interface, or page on your website, that displays real-time data as insightful 
@@ -107,7 +107,7 @@ const LargeProject = () => {
         lessons. In the tasks card, we have a calendar where we can see the date of the assignments. This task section will 
         remind us of assignments. The announcement and grades are also very useful for the students. These four sections have 
         their own detail page. You can see those pages by clicking the below link."
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/dashboard-instructor-led" />
 
         <FurtherDetail heading="Modules"
         para1="Modules are used to organize course content by weeks, units, or a different organizational structure. Modules
@@ -119,13 +119,20 @@ const LargeProject = () => {
         (right side) the detail of the overview will show. The right side consists of a detailed overview and syllabus and further 
         you can click on the modules as well which will take you to another detail page where you can watch course videos and do 
         comments etc."
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/dashboard-modules.html" />
 
         <FurtherDetail heading="Schedule"
-        para1="Schedule means to arrange that an event or activity will happen at a particular time and a list of the times when events are planned to happen, for example, the times when classes happen. The schedule commonly functions as the primary time management tool for the project" 
+        para1="Schedule means to arrange that an event or activity will happen at a particular time and a list of the times when events 
+        are planned to happen, for example, the times when classes happen. The schedule commonly functions as the primary time management 
+        tool for the project" 
         img={ScheduleImg}
-        para2="The schedule is one of the most important components of the LMS portal. In TalentLab LMS we provide a beautiful design where students can check their upcoming lessons. We build an option for students so that they can create their schedules on the bases of their choice. They can also import the schedule from other places. Scheduling can give students to many advantages. Some advantages of them are given below. 1. Scheduling helps you get clear on your purpose. 2. It helps you identify “crunch” times. 3. Scheduling allows for the prioritization of tasks. 4. Claps back against procrastination. 5. Adds contingency time for the “unexpected. 6. Saves your time.””"
-        anchor="" />
+        para2="The schedule is one of the most important components of the LMS portal. In TalentLab LMS we provide a beautiful design 
+        where students can check their upcoming lessons. We build an option for students so that they can create their schedules on the 
+        bases of their choice. They can also import the schedule from other places. Scheduling can give students to many advantages. 
+        Some advantages of them are given below. 1. Scheduling helps you get clear on your purpose. 2. It helps you identify “crunch” 
+        times. 3. Scheduling allows for the prioritization of tasks. 4. Claps back against procrastination. 5. Adds contingency time for 
+        the “unexpected. 6. Saves your time.””"
+        anchor="https://talentlab-lms.netlify.app/dashboard-schedule(instructor-led)" />
 
         <FurtherDetail heading="Tasks"
         para1="Tasks are something you observe a student doing that demonstrated some level of skill or knowledge. For example, a “task” 
@@ -138,7 +145,7 @@ const LargeProject = () => {
         number of tasks above the threshold set by the admin on the item. In TalentLab LMS we have different sections, the first one
         is assignment where students have assignments name and second section is about action where student will upload their work. 
         The next sections are deadline, status, grade, and feedback."
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/dashboard-tasks.html" />
 
         <FurtherDetail heading="Profile"
         para1="A profile page represents information regarding a user’s identity on a website or in a mobile app. It may contain personal 
@@ -146,8 +153,11 @@ const LargeProject = () => {
         associated with a user. It contains critical information that is used to identify an individual, such as their name, age, portrait 
         photograph, and individual characteristics such as knowledge or expertise." 
         img={ProfileImg}
-        para2="Most of these features are optional, so their number and the overall interface composition depend on the design of a particular “About” tab. But majorly, a user profile should look as personalized and unconventional as possible. The design provides me to create the tabs for a profile. There are four tabs, about, career, courses, and portfolio. These tabs show the individual data of the student. On the top, we have a profile photo, name, address, work, and social links."
-        anchor="" />
+        para2="Most of these features are optional, so their number and the overall interface composition depend on the design of a 
+        particular “About” tab. But majorly, a user profile should look as personalized and unconventional as possible. The design provides 
+        me to create the tabs for a profile. There are four tabs, about, career, courses, and portfolio. These tabs show the individual 
+        data of the student. On the top, we have a profile photo, name, address, work, and social links."
+        anchor="https://talentlab-lms.netlify.app/profile.html" />
 
         <FurtherDetail heading="Payment Method"
         para1="A payment method is a way that customers pay for a product or service. Accepted payment methods may include cash, a gift 
@@ -155,17 +165,20 @@ const LargeProject = () => {
         Visa, Mastercard, or debit cards to make online payments or they can agree to be invoiced for the cost of tuition through direct 
         billing." 
         img={PaymentMethodImg}
-        para2="Payment method is the most important page for the LMS portal where students can buy a course and pay the payment through Visa Card, Debit Card, Credit Card, etc. Without payment, a student can't buy a course that everyone knows. Here we have a Finance overview and payment history everything is shown in the above pic if you want to visit the page you can click the below link."
-        anchor="" />
+        para2="Payment method is the most important page for the LMS portal where students can buy a course and pay the payment through 
+        Visa Card, Debit Card, Credit Card, etc. Without payment, a student can't buy a course that everyone knows. Here we have a Finance 
+        overview and payment history everything is shown in the above pic if you want to visit the page you can click the below link."
+        anchor="https://talentlab-lms.netlify.app/financial-info.html" />
 
         <FurtherDetail heading="Settings"
-        para1="The setting is a place of a website where the main feature of the website occurs. Each portal has its own different settings and different UI (Designs). Users are allowed to change the settings of the website." 
+        para1="The setting is a place of a website where the main feature of the website occurs. Each portal has its own different settings 
+        and different UI (Designs). Users are allowed to change the settings of the website." 
         img={SettingsImg}
         para2="In settings we have tabs on the left side and on the right side it shows the data of the tabs when user click the tab the data of 
         that tab will show on right side. We have profile where users can change their for example user want to change the profile photo so he can 
         click on the edit option on the photos and can change the photo. The other tab is about contact, the full contact data of the user are given 
         in detail. Another one is resume, account setting and privacy."
-        anchor="" />
+        anchor="https://talentlab-lms.netlify.app/settings.html" />
 
     </div>
   )
