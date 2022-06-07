@@ -124,7 +124,7 @@
 }
 @media screen and (max-width: 460px){
     .LargeProject img{
-        height: 40vh;  
+        height: 30vh;  
     }
     .LargeProject h1{
         font-size: 35px;
@@ -134,10 +134,5 @@
     }
     .LargeProject{
         padding-top: 60px;
-    }
-}
-@media screen and (max-width: 387px){
-    .LargeProject img{
-        height: 30vh;  
     }
 }

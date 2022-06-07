@@ -118,11 +118,6 @@
         font-size: 16px;
     }
     .Project img{
-        height: 40vh;
-    }
-}
-@media screen and (max-width: 387px){
-    .Project img{
         height: 30vh;
     }
 }
