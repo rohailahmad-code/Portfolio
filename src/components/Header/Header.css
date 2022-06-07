@@ -4,8 +4,9 @@ main.Header{
     background-image: url(../../images/person.png);
     background-position: right;
     background-size: 60%;
-    background-repeat: no-repeat;
-    background-color: #eee;
+    background-repeat: no-repeat; 
+    /* background-color: linear-gradient( #3a6186, #89253e); */
+    /* background-color: rgb(187, 187, 187); */
     /* position: relative; */
     font-family: 'Roboto', sans-serif;
     animation: 1.5s image;
@@ -33,7 +34,7 @@ main.Header{
    
 }
 .navlink:nth-child(1){
-    
+    color: white;
 }
 .navlink:nth-child(2){
     color: red;
