@@ -10,7 +10,7 @@ main.Header{
     /* position: relative; */
     font-family: 'Roboto', sans-serif;
     animation: 1.5s image;
-     
+    position: relative;
 }
 .Header::-webkit-scrollbar{
     display: none;
@@ -118,6 +118,26 @@ animation-delay: .7s;
         from{background-size: 100%;}
         to{background-size: 60%;}
     }
+    main.Header::after{
+        content: "Tap Anywhere";
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        color: white;
+        bottom: 4%;
+        left: 40%;
+        animation: 1s content infinite;
+    }
+    @keyframes content {
+        from{bottom: 3%}
+        to{bottom: 4%;}
+    }
 }
 @media screen and (max-width: 768px){
     main.Header{
@@ -163,6 +183,9 @@ animation-delay: .7s;
         from{background-size: 100%;}
         to{background-size: 80%;}
     }
+    main.Header::after{ 
+        left: 30%;
+    }
 }
 @media screen and (max-width: 460px){
     main.Header{
@@ -187,6 +210,9 @@ animation-delay: .7s;
         from{background-size: 100%;}
         to{background-size: 90%;}
     }
+    main.Header::after{ 
+        left: 28%;
+    }
 }
 @media screen and (max-width: 400px){
     .navlink{
@@ -203,5 +229,8 @@ animation-delay: .7s;
     .navlink.l3{
         top: 62%;
         left: 10%;
+    }
+    main.Header::after{ 
+        left: 25%;
     }
 }
