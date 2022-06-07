@@ -1,0 +1,73 @@
+
+.BackBtn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 20%;
+    right: 12%;
+    z-index: 10;
+}
+button{
+    
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+
+    transition: all .2s ease-in-out;
+
+    animation: 1s BackToHome;
+}
+button::after{
+    content: "home";
+    opacity: 0;
+}
+button:hover::after{
+    opacity: 1;
+}
+button:hover{
+    margin-right: 50px;
+}
+
+
+@keyframes BackToHome{
+    from{
+        margin-top: 80px;
+        opacity: 0;
+    }
+    to{
+        margin-top:0px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 954px){
+    .BackBtn{
+        top: 10%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .BackBtn{
+        top: 5%;
+        right: -5%;
+    }
+}
+@media screen and (max-width: 387px){
+    .BackBtn{
+        top: 5%;
+        right: -5%;
+    }
+    button{
+        font-size: 16px;
+    }
+}

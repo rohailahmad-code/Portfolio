@@ -1,0 +1,20 @@
+div.About, div.Contact, div.Work{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    overflow-x: hidden;
+    padding-top: 220px;
+}
+
+
+@media screen and (max-width: 500px){
+    div.About, div.Contact{
+        padding-top: 80px;
+    }
+    div.Work{
+        padding-top: 120px;
+    }
+}
+
+
+ 

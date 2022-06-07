@@ -1,0 +1,57 @@
+ 
+.BackButton .BackBtn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* height: 220px; */
+    position: -webkit-sticky;
+    position: fixed;
+    top: 20%;
+    right: 12%;
+    z-index: 10;
+}
+.BackButton button{
+    margin-right: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+
+    transition: all .2s ease-in-out;
+}
+.BackButton button::after{
+    content: "work";
+    opacity: 0;
+}
+button:hover::after{
+    opacity: 1;
+}
+button:hover{
+    margin-right: 50px;
+}
+@media screen and (max-width: 954px){
+    .BackButton .BackBtn{
+        top: 10%;
+        right: 6%;
+    }
+}
+@media screen and (max-width: 550px){
+    .BackButton .BackBtn{
+        top: 8%;
+        right: 0;
+    }
+    .BackButton button{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 460px){
+    .BackButton .BackBtn{
+        top: 3%;
+        right: -3%;
+    }
+}

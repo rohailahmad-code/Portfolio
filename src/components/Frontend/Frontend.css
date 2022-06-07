@@ -1,0 +1,33 @@
+.Frontend{
+    color: black;
+    position: relative;
+    padding-bottom: 200px;
+}
+html{
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+#progressBarContainer{
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(255,255,255,0.05);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#progressBar{
+    background-color: rgb(214, 18, 18);
+    transform-origin: top left;
+    transform: scale(0,0);
+}
+#progressBarContainer,
+#progressBar{
+    height: 4px;
+}
+
+@media screen and (max-width: 550px){
+    .Frontend{
+        padding-bottom: 50px;
+    }
+}

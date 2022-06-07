@@ -1,0 +1,31 @@
+.ImageComp{
+    max-width: 80vw;
+    margin: auto;
+}
+.ImageComp img{
+    object-fit: cover;
+    object-position: top;
+    width: 90vw;
+    height: 700px;
+    margin: 100px 0;
+    filter:brightness(90%) contrast(80%) saturate(0%) brightness(80%);
+    overflow-x: none;
+}
+
+@media screen and (max-width: 500px){
+    .ImageComp img{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 360px){
+    .ImageComp{
+        max-width: 90vw;
+    }
+    .ImageComp img{
+        width: 100vw;
+        height: 300px;
+    }
+}
+
+
+
