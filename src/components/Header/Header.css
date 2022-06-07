@@ -76,3 +76,109 @@ animation-delay: .7s;
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 1024px){
+    .navlink{
+        font-size: 110px;
+        font-weight: 700;
+    }
+    .navlink.l1{
+        top: 32%;
+        left: 12%;
+    }
+    .navlink.l2{
+        top: 45%;
+        left: 12%;
+    }
+    .navlink.l3{
+        top: 60%;
+        left: 12%;
+    }
+}
+@media screen and (max-width: 954px){
+    main.Header{
+        background-position: top;
+        background-size: 70%;
+        background-repeat: no-repeat;
+    }
+    .navlink.l1{
+        top: 50%;
+        left: 30%;
+    }
+    .navlink.l2{
+        top: 63%;
+        left: 30%;
+    }
+    .navlink.l3{
+        top: 76%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 768px){
+    main.Header{
+        background-size: 70%;
+    }
+    .navlink.l1{
+        top: 47%;
+        left: 25%;
+    }
+    .navlink.l2{
+        top: 60%;
+        left: 25%;
+    }
+    .navlink.l3{
+        top: 73%;
+        left: 25%;
+    }
+}
+@media screen and (max-width: 550px){
+    main.Header{
+        background-size: 100%;
+    }
+    .navlink{
+        font-size: 100px;
+    }
+    .navlink.l1{
+        top: 47%;
+        left: 10%;
+    }
+    .navlink.l2{
+        top: 59%;
+        left: 10%;
+    }
+    .navlink.l3{
+        top: 71%;
+        left: 10%;
+    }
+}
+@media screen and (max-width: 460px){
+    .navlink.l1{
+        top: 40%;
+        left: 10%;
+    }
+    .navlink.l2{
+        top: 52%;
+        left: 10%;
+    }
+    .navlink.l3{
+        top: 64%;
+        left: 10%;
+    }
+}
+@media screen and (max-width: 400px){
+    .navlink{
+        font-size: 80px;
+    }
+    .navlink.l1{
+        top: 35%;
+        left: 10%;
+    }
+    .navlink.l2{
+        top: 45%;
+        left: 10%;
+    }
+    .navlink.l3{
+        top: 55%;
+        left: 10%;
+    }
+}
