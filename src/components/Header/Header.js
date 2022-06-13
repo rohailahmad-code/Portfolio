@@ -3,8 +3,6 @@ import './Header.css';
 
 import { NavLink } from 'react-router-dom';
 
-import Person from '../../images/person.png';
-
 class Header extends React.Component{
     
     constructor() {
@@ -14,7 +12,6 @@ class Header extends React.Component{
             navlink_2 : 'I am',
             navlink_3 : 'Rohail' 
         }
-        
       }
 
       mouseOverOne (e) {
@@ -40,27 +37,37 @@ class Header extends React.Component{
             })
       }
 
-      changeStateHandler(e){
-          this.setState({
-            navlink_1 : 'About',
-            navlink_2 : 'Work',
-            navlink_3 : 'Contact'
-          })
+      toggleDisplay(){
+        this.setState(prevState => ({
+          navlink_1: prevState.navlink_1 === 'Hello.' ? 'About' : 'Hello.',
+          navlink_2: prevState.navlink_2 === 'I am' ? 'Work' : 'I am',
+          navlink_3: prevState.navlink_3 === 'Rohail' ? 'Contact' : 'Rohail',
+        }))
       }
     
+      // changeStateHandler(e){
+      //     this.setState({
+      //       navlink_1 : 'About',
+      //       navlink_2 : 'Work',
+      //       navlink_3 : 'Contact'
+      //     })
+      // }
+
+      // onClick={this.changeStateHandler.bind(this)}
+
 
       render() {
         
             // const {text} = this.state;
             return (
-                <main  onClick={this.changeStateHandler.bind(this)} className='Header'>
 
-                    
-                
+                <main onClick={this.toggleDisplay.bind(this)}  className='Header'>
+
                     <div className='navlinks'>
                         <NavLink className='navlink l1' to='/about'
                         onMouseEnter={this.mouseOverOne.bind(this)}
-                        onMouseLeave={this.mouseOut.bind(this)}>
+                        onMouseLeave={this.mouseOut.bind(this)}
+                        >
                         {this.state.navlink_1}
                         </NavLink>
                         <NavLink className='navlink l2' to='/work'
