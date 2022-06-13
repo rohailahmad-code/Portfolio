@@ -8,7 +8,6 @@ const SmallProject = (props) => {
         <h1>{props.heading}</h1>
         <span>{props.span}</span>
         <div className="SmallProjectDetail">
-            <p>{props.para1}</p>
             <img src={props.img} alt="" />
             <a href={props.link} target="_blank">Click here to view</a>
         </div>
@@ -16,4 +15,4 @@ const SmallProject = (props) => {
   )
 }
 
-export default SmallProject;
+export default SmallProject; 

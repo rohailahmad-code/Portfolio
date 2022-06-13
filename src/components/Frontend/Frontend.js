@@ -8,8 +8,6 @@ import InsureImg from "../../images/insure.png";
 import EasyBankImg from "../../images/easybank.png";
 import NatureTour from "../../images/travel.png";
 import HamdanTiles from "../../images/tiles-showroom.png";
-import Calculator from "../../images/calculator.png";
-import SmallProject from "../SmallProject/SmallProject";
 import LargeProject from "../LargeProject/LargeProject";
 
 const Frontend = () => {
