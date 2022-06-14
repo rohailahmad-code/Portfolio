@@ -29,6 +29,7 @@ const ReactApp = () => {
       progressBar.style.transform = `scale(${scroll}, 1)`;
       // progressBar.style.opacity = `${scroll}`;
     };
+    
 
     window.addEventListener("scroll", progressBarHandler);
 
