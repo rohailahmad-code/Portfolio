@@ -28,7 +28,7 @@ const AboutDetail = () => {
         <p>You can read more about my experience, skills, education and much more in the PDF attached bellow:</p>
 
         <div className="resume">
-            <a className='last' href="../../../public/Resume.pdf">My Resume (pdf)</a>
+            
         </div>
     </div>
   )
