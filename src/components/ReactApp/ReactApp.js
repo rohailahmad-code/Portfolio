@@ -106,7 +106,7 @@ const ReactApp = () => {
         span="Counter made by me"
         para1="para1"
         img={CounterImg}
-        link="https://counterapp-by-rohail.netlify.app/"
+        link="https://counter-app-by-rohail.netlify.app/"
       />
 
       <SmallProject
