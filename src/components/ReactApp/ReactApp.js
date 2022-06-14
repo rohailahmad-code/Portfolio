@@ -98,7 +98,7 @@ const ReactApp = () => {
         span="Addition Game"
         para1="para1"
         img={AdditionGameImg}
-        link="https://additiongame-by-rohail.netlify.app/"
+        link="https://addition-game-by-rohail.netlify.app/"
       />
 
       <SmallProject
